@@ -115,8 +115,9 @@ main h1{
 }
 main h2{
     font-family: var(--font-android);
+    font-size: 1.3em;
     color: var(--cor4);
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, var(--cor1), white);
     text-indent: 4px;
 }
 main img{
@@ -161,7 +162,7 @@ aside h3{
     border-radius: 10px 10px 0px 0px;
 }
 footer{
-    background-color: var(--cor5);
+    background-image: linear-gradient(to top, #005e2cbc,#43c783);
     color: white;
     padding: 5px;
     text-align: center;
